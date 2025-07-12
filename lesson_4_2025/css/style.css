@@ -1,44 +1,35 @@
 @import url("reset.css");
-/* [title]{
-   color: rgb(127, 215, 39);
+/* .block-text~div+p{color: blue;} */
+/* .block-text~div~p{color: blue;} */
+/* .block-text~div>p{color: blue;} */
+/* .text>p{color:#08f69b} */
+/* p>a{
+   color: blue;
 } */
-/* #history{
-   color: brown;
-} */
-/* .block-text>div{
-   color: #1fcefa;
-} */
-/* .block-text p+p{
-   color: rgb(114, 14, 191);
-} */
-/* .block-text p~p{
-   color: rgb(197, 248, 12);
-} */
-/* .block p{
-   color: #00ff37;
-} */
-/* p{
-   color: brown;
-} */
-*{color: rgb(99, 33, 184);}
-/* [title$="посиланням"]{
-   color:rgb(11, 238, 57)
-} */
-/* [title="Перейди за посиланням"]{
-   color:rgb(11, 238, 57)
+/* [title*="Перейди"]{
+   color:blueviolet
 } */
 /* [title$="посиланням"]{
-   color:rgb(11, 238, 57)
+   color:blueviolet
 } */
 /* [title~="за"]{
-   color:rgb(11, 238, 57)
+   color:#ab2189
 } */
 /* [title|="Перейди"]{
-   color:rgb(11, 238, 57)
+   color:blueviolet
 } */
-/* .block-text #crysis >p~p{
-   color: blueviolet;
+/* [title^="Перейди"]{
+   color:blueviolet
 } */
-/* .block-text #crysis >p+p{
-   color: blueviolet;
+/* [title="Перейди-за посиланням"]{
+   color:blueviolet
+} */
+/* .text{
+   color: brown;
+} */
+/* p{
+   color:aqua
+} */
+/* {
+   color:rgb(129, 248, 10) !important
 } */
