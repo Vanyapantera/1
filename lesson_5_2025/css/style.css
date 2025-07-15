@@ -108,7 +108,7 @@ Body{
    font-size: 50px;
    font-weight: 700;
    color: #07c1f4;
-   text-shadow:5px 5px 5px, #6c9, -6px -2px -1px #830a0a;
+   text-shadow:5px 5px 5px, #6c9;
    line-height: 1.27;
    text-decoration: underline;
    text-align: center;
@@ -131,7 +131,7 @@ h3{
    font-size: 20px;
    font-weight: 500;
    color: #07f4ec;
-   text-shadow: 5px 5px 5px, #6c9, -6px -2px -1px #151515;
+   text-shadow: 5px 5px 5px, #6c9;
    line-height: 2;
 }
 .basement p+p{
