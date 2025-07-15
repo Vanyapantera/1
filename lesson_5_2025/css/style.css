@@ -108,7 +108,7 @@ Body{
    font-size: 50px;
    font-weight: 700;
    color: #07c1f4;
-   text-shadow:5px 5px 5px, #6c9;
+   text-shadow: 5px -5px rgba(255, 0, 0, 0.611);
    line-height: 1.27;
    text-decoration: underline;
    text-align: center;
@@ -122,7 +122,6 @@ h2{
    font-size: 30px;
    font-weight: 500;
    color: #07f423;
-   text-shadow: 5px 5px 5px, #6c9, -6px -2px -1px #151515;
    line-height: 2;
    text-align: center;
    text-transform: uppercase;
@@ -131,10 +130,12 @@ h3{
    font-size: 20px;
    font-weight: 500;
    color: #07f4ec;
-   text-shadow: 5px 5px 5px, #6c9;
    line-height: 2;
 }
 .basement p+p{
    text-align: center;
    background-color: #07f4234a;
+}
+img{
+   text-shadow: 5px 5px #07f423;
 }
